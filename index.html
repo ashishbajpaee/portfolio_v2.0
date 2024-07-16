@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- font-awesome se second link se uthaya -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <div class="logo-image"><img src="logo.PNG" alt="My image"></div>
+                
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav-menu-list">
+                    <li class="nav-list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#about" class="nav-link active-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#projects" class="nav-link active-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#contact" class="nav-link active-link">Contacts</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="moon-sun" id="toggle-switch">
+                <i class="fa fa-moon" id="moon"></i>
+                <i class="fa fa-sun" id="sun"></i>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenufunction()"></i>
+            </div>
+        </nav>
+
+        <!-- main statrs from here -->
+        <main class="wrapper">
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="hello">
+                        <p> Hello I ,am</p>
+                    </div>
+                    <div class="featured-name">
+                        <span class="typedText"></span>
+                    </div>
+                    <div class="text-info">
+                        <p>My name is Ashish Bajpai and I am an enthusiastics web developer</p>
+                    </div>
+                    <div class="text-btn">
+                        <a href="mailto:kunnukjn1233@gmail.coms?ubject=Subject%20Here&body=Body%20text%20here">   <button class=" btn hire-btn">Hire Me</button></a>
+                       <a href="ASHU.pdf" target="_blank"> <button class="btn ">Download CV<i class="uil uil-file"></i></button></a>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon_circle"></div>
+                        <a class="icon" href="https://www.instagram.com/ashishbajpaee_/" target="_blank"><i class="uil uil-instagram"></i></a>
+                        <a class="icon" href="https://www.linkedin.com/in/ashish-bajpae-e/" target="_blank"><i class="uil uil-linkedin-alt"></i></a>
+                        <a class="icon" href="https://github.com/ashishbajpaee/Replica1" target="_blank"><i class="uil uil-github-alt"></i></a>
+                        <a class="icon" href="https://x.com/kunnukjn1233" target="_blank"><i class="uil uil-twitter-alt"></i></a>
+                    </div>
+                </div>
+                <div class="featured-image"> 
+                    <div class="image">
+                        <img src="ashi.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!-- ABOUT WALA BOX -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <figure class="about-me">
+                                <figcaption>
+                                    <img src="" alt="" class="ptofile" />
+                                    <h2>Web Developer</h2>
+                                    <p>My name is Ashish Bajpai ! and I am an enthusiastic web developer </p>
+                                    
+                                    
+                            </figure>
+                           <a href="mailto:kunnukjn1233@gmail.coms?ubject=Subject%20Here&body=Body%20text%20here" target="_blank">   <buttton class="about-me-btn">Hire Me</buttton></a>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-box">
+                            <span class="title">HTML</span>
+                            <div class="skill-bar ">
+                                <span class="skill-per html">
+                                    <span class="tooltip">80%</span>
+                                </span>
+                            </div> 
+                            </div>
+                            <div class="skill-box">
+                                <span class="title">CSS</span>
+                                <div class="skill-bar ">
+                                    <span class="skill-per css">
+                                        <span class="tooltip">80%</span>
+                                    </span>
+                                </div>
+                            </div>
+                        <div class="skill-box">
+                            <span class="title">JavaScript</span>
+                            <div class="skill-bar ">
+                                <span class="skill-per js">
+                                    <span class="tooltip">70%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">C++</span>
+                            <div class="skill-bar ">
+                                <span class="skill-per cpp">
+                                    <span class="tooltip">40%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- PROJECT BOX YAHA SE SHURU HAI -->
+            <section class="section" id="Projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="Project-container">
+                    <div class="project-box">
+                        <i class="uil uil-briefcase-alt"></i>
+                        <h3>Completed</h3>
+                        <label> 3+ Finished Projects</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-award"></i>
+                        <h3>Expierence</h3>
+                        <label>6 Month+ Expierence</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-users-alt"></i>
+                        <h3>Clients</h3>
+                        <label> 1 Happy Client</label>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+            <section class="section" id="Projects">
+                <div class="top-header">
+                    <h1>Expertise</h1>
+                </div>
+                <div class="Project-container">
+                    <div class="project-box">
+                        <i class="uil uil-briefcase-alt"></i>
+                        <h3>Codeforces</h3>
+                        <label> 1100+ rating </label>
+                        <a href="https://codeforces.com/profile/ashish_b_214" target="_blank"><buttton class="visit-btn">Visit Now</buttton></a>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-award"></i>
+                        <h3>Figma</h3>
+                        <label>4 Month+ Expierence</label>
+                        <a href="https://www.figma.com/design/QTO35mJMTqoX9QhyUXsU9H/Untitled?node-id=0-1&t=PGBwIKrWNyHE70xZ-0" target="_blank"><buttton class="visit-btn">Visit Now</buttton></a>
+
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-users-alt"></i>
+                        <h3>JavaScript</h3>
+                        <label> 2 Month+ Experience</label>
+                        <a href="https://ashishbajpaee.github.io/rps/" target="_blank"><buttton class="visit-btn">Visit Now</buttton></a>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- CONTACT BOX STARTS FROM HERE -->
+            <section class="section" id="contact">
+
+
+
+                <div class="top-header">
+                    <h1>Let's Work</h1>
+                    <span>Do you have project in your mind ,contact me here</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i>Email: kunnukjn1233@gmail.com</p>
+                            <p><i class="uil uil-phone"></i>Phone: 7390926039</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" class="input-subject" placeholder="Your Name">
+                                <input type="text" class="input-subject" placeholder="Your Email">
+                            </div>
+                            <div class="text-area">
+                                <input type="text" class="input-subject" placeholder="Subject">
+                                <textarea placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-button">
+                                <a href="mailto:kunnukjn1233@gmail.coms?ubject=Subject%20Here&body=Body%20text%20here">  <button class="btn">Send<i class="uil uil-message"></i></button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- !  FOOTER STARS FROM HERE -->
+        <footer>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer-menu-list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon_crcle">
+                </div>
+                <a class="icon" href="https://www.instagram.com/ashishbajpaee_/" ,target="_blank" "><i class="uil uil-instagram"></i></a>
+                <a class="icon" href="https://www.linkedin.com/in/ashish-bajpae-e/" target="_blank"><i class="fa-brands fa-linkedin-in icon"></i></a>
+                <a class="icon" href="https://github.com/ashishbajpaee/Replica1"><i class="uil uil-github-alt" target="_blank"></i></a>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Ashuu</a>- All rights are reserved
+                </p>
+            </div>
+        </footer>
+    </div>
+     <!-- FONT AWESOME KE TYPED.JS SE -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
